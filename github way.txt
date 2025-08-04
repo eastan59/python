@@ -27,8 +27,8 @@ git branch -M main               # 把預設分支改成 main
 git push -u origin main          # 上傳到 GitHub
 
 git add .
-git commit -m "更新說明"
-git push
+git commit -m "NEW"
+git push origin main
 
 
 關cmd 重用
@@ -37,4 +37,5 @@ git add .
 git commit -m "你的更新說明"
 git pull origin main --rebase(先拉下來再 push)
 git push origin main
+
 
