@@ -38,4 +38,8 @@ git commit -m "你的更新說明"
 git pull origin main --rebase(先拉下來再 push)
 git push origin main
 
+下載
+git clone https://github.com/eastan59/python.git(自己的網址)
+git clone https://github.com/eastan59/python.git %USERPROFILE%\Desktop\
+
 
