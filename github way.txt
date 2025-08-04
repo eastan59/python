@@ -29,3 +29,12 @@ git push -u origin main          # 上傳到 GitHub
 git add .
 git commit -m "更新說明"
 git push
+
+
+關cmd 重用
+cd C:\Users\你的名字\Documents\my-project
+git add .
+git commit -m "你的更新說明"
+git pull origin main --rebase(先拉下來再 push)
+git push origin main
+
