@@ -1,0 +1,31 @@
+第一步：建立 GitHub 上的 Repository
+登入 GitHub（https://github.com）
+
+點右上角「➕」 → New repository
+
+輸入專案名稱（例如：my-project）
+
+可以選擇是否初始化 README（如果你要從本機推送，建議 不要 勾選初始化 README）
+
+點「Create repository」
+
+
+第二步：本機專案初始化 Git
+
+
+cd /path/to/your/project-folder   # 進入你的專案資料夾
+git init                          # 初始化 Git
+git add .                         # 加入所有檔案到暫存區
+git commit -m "首次提交"           # 提交這些變更
+
+連接 GitHub 儲存庫並上傳
+
+https://github.com/你的帳號/你的儲存庫名稱.git
+
+git remote add origin https://github.com/你的帳號/你的儲存庫名稱.git
+git branch -M main               # 把預設分支改成 main
+git push -u origin main          # 上傳到 GitHub
+
+git add .
+git commit -m "更新說明"
+git push
